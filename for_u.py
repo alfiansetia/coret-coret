@@ -4,8 +4,8 @@ t.screen.bgcolor('black')
 t.pensize(2)
 t.color('green')
 t.left(90)
-t.backward(100)
-t.speed(1000)
+t.backward(70)
+t.speed(200)
 t.shape('turtle')
 
 
@@ -24,5 +24,5 @@ def tree(i):
         t.left(30)
         t.backward(i)
 
-tree(100)
+tree(70)
 turtle.done()
