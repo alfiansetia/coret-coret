@@ -1,0 +1,12 @@
+from turtle import *
+begin_fill()
+color('red')
+pensize(3)
+left(50)
+forward(200)
+circle(75, 200)
+right(140)
+circle(75, 200)
+forward(200)
+end_fill()
+exitonclick()
